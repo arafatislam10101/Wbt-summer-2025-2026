@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donation Form</title>
+</head>
+<body>
+
+<form method="post">
+
+<fieldset>
+
+<legend>Donor Information</legend>
+
+<table>
+
+<tr>
+    <td align="right">First Name*</td>
+    <td><input type="text" name="fname" required></td>
+</tr>
+
+<tr>
+    <td align="right">Last Name*</td>
+    <td><input type="text" name="lname" required></td>
+</tr>
+
+<tr>
+    <td align="right">Company</td>
+    <td><input type="text" name="company"></td>
+</tr>
+
+<tr>
+    <td align="right">Address 1*</td>
+    <td><input type="text" name="address1" required></td>
+</tr>
+
+<tr>
+    <td align="right">Address 2</td>
+    <td><input type="text" name="address2"></td>
+</tr>
+
+<tr>
+    <td align="right">City*</td>
+    <td><input type="text" name="city" required></td>
+</tr>
+
+<tr>
+    <td align="right">State*</td>
+    <td>
+        <select name="state" required>
+            <option value="">Select a State</option>
+            <option>Dhaka</option>
+            <option>Chattogram</option>
+            <option>Rajshahi</option>
+            <option>Khulna</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td align="right">Zip Code*</td>
+    <td><input type="text" name="zipcode" required></td>
+</tr>
+
+<tr>
+    <td align="right">Country*</td>
+    <td>
+        <select name="country" required>
+            <option value="">Select a Country</option>
+            <option>Bangladesh</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>UK</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td align="right">Phone</td>
+    <td><input type="text" name="phone"></td>
+</tr>
+
+<tr>
+    <td align="right">Fax</td>
+    <td><input type="text" name="fax"></td>
+</tr>
+
+<tr>
+    <td align="right">Email*</td>
+    <td><input type="email" name="email" required></td>
+</tr>
+
+<tr>
+    <td align="right" valign="top">
+        Donation Amount* <br>
+        (Select or type amount)
+    </td>
+    <td>
+        <input type="radio" name="amount" value="none"> None
+        <input type="radio" name="amount" value="50"> $50
+        <input type="radio" name="amount" value="75"> $75
+        <input type="radio" name="amount" value="100"> $100
+        <input type="radio" name="amount" value="250"> $250
+        <input type="radio" name="amount" value="other"> Other
+
+        <br><br>
+
+        Other Amount $
+        <input type="text" name="other_amount">
+    </td>
+</tr>
+
+<tr>
+    <td align="right" valign="top">
+        Recurring Donation
+    </td>
+    <td>
+        <input type="checkbox" name="recurring">
+        I want to donate regularly
+
+        <br><br>
+
+        Monthly Amount $
+        <input type="text" name="monthly_amount">
+
+        For
+        <input type="text" name="months">
+        Months
+    </td>
+</tr>
+
+</table>
+
+</fieldset>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="education.html">Education</a> |
+    <a href="experience.html">Experience</a> |
+    <a href="projects.html">Projects</a> |
+    <a href="contact.html">Contact Me</a>
+</nav>
+
+<hr>
+
+<h1>Contact Me</h1>
+
+<fieldset>
+    <legend>Contact Form</legend>
+
+    <form>
+
+        <label>First Name:</label>
+        <input type="text" name="fname">
+        <br><br>
+
+        <label>Last Name:</label>
+        <input type="text" name="lname">
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email">
+        <br><br>
+
+        <fieldset>
+            <legend>Services</legend>
+
+            <input type="checkbox" name="service" value="web"> Web Development
+            <br>
+
+            <input type="checkbox" name="service" value="ai"> AI/ML
+            <br>
+
+            <input type="checkbox" name="service" value="backend"> Backend
+        </fieldset>
+
+        <br>
+
+        <label>Reason of Contact:</label>
+        <select name="reason">
+            <option>Job</option>
+            <option>Project</option>
+            <option>Thesis</option>
+        </select>
+
+        <br><br>
+
+        <label>Date:</label>
+        <input type="date" name="date">
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+</fieldset>
+
+</body>
+</html>
